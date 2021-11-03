@@ -1,0 +1,110 @@
+{
+    "ACEPTO_POLITICAS": "J'accepte la politique de confidentialité et de protection des données.",
+    "ACTIVIDAD_PRODUCTO": "¿Quelle est l'activité ou le produit que vous développez?",
+    "AREA":"Superficie ou surface",
+    "AREA_UFUNCIONAL": "¿Quelle est la superficie en mètres carrés?",
+    "ARENA_TERRENO": "¿Quel (%) de sable présente-t-il?",
+    "ARCILLA_TERRENO": "¿Quel (%) d'argile présente-t-il?",
+    "ACCESO_ENTREGA":"¿Comment accéder au point de livraison?",
+    "ALMACENA_AGUA":"¿Comment stockez-vous ou stockez-vous l'eau?",
+
+    "BIENVENIDO":"Bienvenue à",
+    "BIODIVERSIDAD":"Biodiversité",
+
+    "CANCELAR": "Annuler",
+    "CERRAR_SESION": "Fermer la session",
+    "CELULAR": "Mobile",
+    "CICLOS": "Cycles",
+    "CONOCE_MOS": "¿Connaissez-vous le pourcentage de matière organique du sol dans cette UF?",
+    "CONOCE_PH": "¿Connaissez-vous le pH du sol de cette parcelle ?",
+    "CONOCE_PORCENTAJE": "¿Connaissez-vous le pourcentage d'argile, de limon et de sable dans votre terrain?*",
+    "COORDENADAS":"coordonnées",
+    "CONSUMIDOR": "Consommateur",
+    "COMERCIALIZACION": "Commercialisation",    
+    "COORDENADAS_ENTREGA":"¿Pourriez-vous enregistrer les coordonnées du point de livraison?",
+    "CREAR_CUENTA": "Créer un compte",
+    "CUAL_PH": "¿Qu'est-ce que le PH?",
+    "CUANTOS_TRABAJADORES": "¿Combien y a-t-il de travailleurs dans votre UP, y compris vous?",
+    "CUANTOS_JORNALEROS": "Sur le nombre total d'ouvriers, combien sont des journaliers?",
+    "CUANTOS_DISCAPACIDAD": "¿Combien y a-t-il de travailleurs handicapés dans votre UP?",
+    "CUANTOS_AFRO": "¿Combien de travailleurs de culture afro-descendante y a-t-il dans votre UP?",
+    "CUANTOS_MIGRANTES": "¿Combien de travailleurs déplacés, migrants ou victimes du conflit y a-t-il dans votre UP?",
+    "CUANTOS_INDIGENA": "¿Combien de travailleurs de la population autochtone ou ethnique participent à votre UP?",
+    "CONTRASEÑA": "Mot de passe",
+    "CONTROL_AGUA": "¿Quel contrôle effectuez-vous sur l'eau utilisée dans votre UP?",
+
+    "DISTANCIA_FINCA": "A quelle distance de votre exploitation percevez-vous une bonne couverture de communication pour les appels et internet?",
+    "DISPOSICION_RESIDUOS":"¿Comment éliminer les déchets organiques dans votre UP?",
+    "DIVERISDAD_INSECTOS":"Veuillez télécharger une image montrant la diversité des insectes.*",
+
+    "EVALUADOR": "Évaluateur",
+    "ESTAMOS_MUY_FELICES": "Nous sommes très heureux de vous revoir.",
+
+    "FOTO_LOTE": "Veuillez télécharger une photo de votre lot",
+    "FOTO_TERRENO": "Veuillez télécharger une photo d'un trou dans votre sol d'une profondeur jusqu'à ce que les petites racines soient terminées",
+
+    "GUARDAR":"Sauvegarder",
+
+    "IDENTIFICACION": "Identifiant",
+    "INGRESAR": "ACCÉDER",
+    "INFO_FINCA":"Informations sur l'unité de production",
+    "INICIO": "Début",
+    "INSECTOS_COLOR":"Of the insects collected in the yellow trap, what percentage looked like a wasp, bee, or ant?*",
+
+    "HELP_BIO": "* Aide pour cette question",
+    "HELP_CASERO": "* Aide pour la méthode à domicile",
+    "HUMEDAD_SUELO": "¿Quelle est l'humidité générale du sol?",
+
+    "LENGUAJE": "Langue",
+    "LIMO_TERRENO": "¿Quel (%) de limon présente-t-il ?",
+    
+    "NOMBRE": "Nom et prénom",
+    "NO_TIENE_CUENTA" : "Vous n'avez pas de compte?",
+    "NOMBRE_UFUNCIONAL": "Nom de l'unité fonctionnelle agricole",
+    "NUMERO_TRABAJADORES": "Nombre de travailleurs",    
+    "NOMBRE_FINCA": "Nom de l'unité de production",
+    "NUMERO_INSECTOS":"¿Quel était le poids total des animaux (vers de terre, cafards, coléoptères...) qui sont sortis de la terre SI en train de s'assécher?*",
+
+    "METODO_PH": "¿Quelle méthode utiliserez-vous, à la maison ou en laboratoire ?*",
+
+    "ORIGEN_AGUA":"¿D'où vient l'eau de la ferme?",
+    "OLVIDO_SU_CONTRASEÑA": "Vous avez oublié votre mot de passe?",
+    
+    "PAIS": "Pays",
+    "PENDIENTE_TERRENO":"¿Quelle est la pente du terrain?",
+    "PLANIFICACION": "Planification",
+    "PRACTICAS_AGRICOLAS":"Pratiques agricoles dans cet espace",
+    "PRODUCTOR":"Producteur",
+    "PROFUNDIDAD_SUELO": "¿Quelle est la profondeur en cm du sol?",
+    "PORCENTAJE_MOS": "¿Quel est le pourcentage de matière organique dans le sol (MOS)?",
+    "PUNTO_ENTREGA":"Point de livraison",
+
+    "QUE_UF_TIENE": "Quelles unités fonctionnelles avez-vous?",
+
+    "RECURSO_HIDRICO":"Ressources en eau et déchets",
+    "REGISTRARME": "ENREGISTREMENT",
+    "REGISTRO": "Inscription",
+    "RIEGO_AGUA":"¿Quel système d'irrigation utilisez-vous dans votre UP?",
+    "REGISTRATE_AQUI": "Créez un compte ici",
+
+    "SELECCIONE_IDIOMA": "Sélectionnez une langue",
+    "SELECCIONE_FRECUENCIA": "Fréquence des notifications",
+    "SELECCIONE_PAIS": "Choisissez un pays",
+    "SELECCIONE_DEPTO": "Sélectionnez un département",
+    "SELECCIONE_MUNICIPIO": "Sélectionnez une municipalitée",
+    "SELECCIONE_VEREDA": "Sélectionnez une commune",
+    "SUBSCRIBIRSE": "S'abonner",
+
+    "TRANSPORTADOR": "Convoyeur",
+    "TEXTO1": "Inscrivez-vous maintenant et profitez d'un outil qui vous aidera à être plus efficace au quotidien",
+    "TIPO_UNIDAD": "¿De quel type d'activité agricole s'agit-il ?",
+    "TRABAJADORES": "Ouvriers",
+    "TERRAZAS_AGUA": "¿Les terrasses sont-elles faites pour éviter l'érosion?",
+    "TRAMPA_INSECTOS":"¿Combien d'insectes voyez-vous dans le piège lumineux?*",
+    
+    "UNIDAD_FUNCIONAL":"Unité fonctionnelle",
+    "USUARIO": "Nom d'utilisateur",
+    "UNIDAD_PRODUCTIVA": "Unité de production",
+
+    "VAMOS_A_CREAR": "Créons votre compte"
+}

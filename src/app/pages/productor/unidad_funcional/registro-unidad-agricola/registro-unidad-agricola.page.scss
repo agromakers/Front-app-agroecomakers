@@ -1,0 +1,76 @@
+.cabecera{
+    height: 14vh;
+        width: 320px;
+        align-items: center;
+        display: inline-flex;
+        margin-left: 4vw;
+        border-radius: 10px;
+        border: none;
+}
+
+.card-img{
+    width: 20vw;
+    height: auto;
+    display: block;
+    margin: 0px auto;         
+} 
+
+.label{
+    width: 200px;
+    margin-bottom: 10px;
+    color: #006837;    
+}
+
+hr{
+    height: 2px;
+    background-color:#006837;
+} 
+
+h4{
+    color: #006837;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+}
+h5{
+    margin: 10px auto ;
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+}
+
+.text-center{       
+    margin-left:45%;
+    margin-right: 45%;       
+}
+
+ion-item{
+    width: 90%;
+    font-size: 14px;        
+    height: auto;
+    margin: 1.5vh auto 0;
+    border-radius: 30px;
+}
+
+ion-card{
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+div{
+    margin: 1rem auto 0.5rem 1.5rem ;
+    padding: 0px;
+}
+
+p{
+    text-decoration: underline;
+    color: #006837;
+    margin: 3px auto !important;
+}
+
+.disabled{
+    visibility:hidden;
+    height: 0px;
+}

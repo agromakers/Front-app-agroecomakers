@@ -1,0 +1,8 @@
+{
+  "name": "agromaker",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

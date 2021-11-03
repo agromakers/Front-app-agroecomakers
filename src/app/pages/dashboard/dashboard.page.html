@@ -1,0 +1,35 @@
+<app-header></app-header>
+<ion-content id="main">
+    <div class="contenedor">
+        <h3 style="margin-top: 10%;">Seleccione un Rol para acceder a sus opciones</h3>
+        <ion-grid>
+            <ion-col size="6">
+                <ion-card (click)="mostrarFinca();">                  
+                    <ion-img src="../../../assets/icon/greenproducer-310.png" alt=""></ion-img>
+                    <h3>{{"PRODUCTOR" | translate}}</h3>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">    
+                <ion-card (click)="mostrarTransporte();">                  
+                    <ion-img src="../../../assets/icon/greentransporter-310.png" alt=""></ion-img>
+                    <h3>{{"TRANSPORTADOR" | translate}}</h3>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card (click)="mostrarLocal();">                  
+                    <ion-img src="../../../assets/icon/greencustomer-310.png" alt=""></ion-img>
+                    <h3>{{"CONSUMIDOR" | translate}}</h3>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">   
+                <ion-card (click)="mostrarEvaluacion();">                  
+                    <ion-img src="../../../assets/icon/greenevaluator-310.png" alt=""></ion-img>
+                    <h3>{{"EVALUADOR" | translate}}</h3>
+                </ion-card>
+            </ion-col>     
+        </ion-grid> 
+    </div>
+    
+</ion-content>
+
+

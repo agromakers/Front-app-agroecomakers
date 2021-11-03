@@ -1,0 +1,133 @@
+<ion-header no-border class="myphoto">     
+  <ion-toolbar size="12" size-lg="6" size-md="6" >
+    <ion-buttons slot="start" text='null'>
+      <ion-back-button defaultHref="/inicio" color="success" slot="icon-only" text=""></ion-back-button>
+    </ion-buttons>
+    <!-- <ion-img src="../../../assets/icon/logo-agroecomaker-h.png" alt=""></ion-img>  --> 
+    <ion-title slot="end">{{ "SUBSCRIBIRSE" | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="contenedor">
+  <div class="contenedor">
+    <h2>{{ "BIENVENIDO" | translate}}</h2>
+      <ion-img src="../../../assets/icon/aem-back-white-512.png" ></ion-img>
+        
+    <h3>{{ "VAMOS_A_CREAR" | translate}}</h3> 
+    <ion-grid class="ion-no-padding" > <!-- mode= "ios" -->
+      <ion-row class="ion-no-padding">
+        <ion-col class="ion-no-padding">       
+          
+          <form [formGroup]="formRegistro" (ngSubmit)="guardar()" >
+            <ion-item>
+              <ion-input inputmode="text"
+                        autocapitalize
+                        formControlName="nombre"
+                        class="ion-no-padding"
+                        placeholder='{{ "NOMBRE"| translate}}'
+                        >
+              </ion-input>
+            </ion-item>                                        
+            <div *ngFor="let error of errorMensaje.nombre">
+              <ng-container *ngIf="nombre.hasError(error.type) && (nombre.dirty || nombre.touched)">
+                <small class="error-message">{{error.message}}</small>
+              </ng-container>                    
+            </div>
+            <ion-item>
+              <ion-input inputmode="number"
+                        autocapitalize
+                        formControlName="identificacion"
+                        class="ion-no-padding"
+                        placeholder='{{ "IDENTIFICACION"| translate}}'
+                        >
+              </ion-input>
+            </ion-item>                                        
+            <div *ngFor="let error of errorMensaje.identificacion">
+              <ng-container *ngIf="identificacion.hasError(error.type) && (identificacion.dirty || identificacion.touched)">
+                <small class="error-message">{{error.message}}</small>
+              </ng-container>                    
+            </div>
+            <!-- <ion-item>
+              <ion-input type="email" 
+                        formControlName ="email"
+                        placeholder='{{ "EMAIL"| translate}}'
+                        >
+              </ion-input>
+            </ion-item>         
+            <div *ngFor="let error of errorMensaje.email">
+              <ng-container *ngIf="email.hasError(error.type) && (email.dirty || email.touched)">
+                <small class="error-message">{{error.message}}</small>
+              </ng-container>                    
+            </div> -->
+            <ion-item>
+              <ion-input inputmode="tel" 
+                        type= "tel"
+                        formControlName ="telefono"
+                        placeholder='{{ "CELULAR"| translate}}'
+                        >
+              </ion-input>
+            </ion-item>
+            <div *ngFor="let error of errorMensaje.telefono">
+              <ng-container *ngIf="telefono.hasError(error.type) && (telefono.dirty || telefono.touched)">
+                <small class="error-message">{{error.message}}</small>
+              </ng-container>                    
+            </div>
+            <ion-item>
+              <ion-input [type]="passwordType" 
+                        formControlName ="password"
+                        placeholder='{{ "CONTRASEÑA"| translate}}'
+                        >
+                        
+              </ion-input>
+              <ion-icon slot="end" [color]= "passwordFlag === true ? 'dark' : 'gray'" [name]="passwordFlag === true ? 'eye-off-outline' : 'eye-outline'" (click) = "changeType();"></ion-icon>
+            </ion-item>       
+            <div *ngFor="let error of errorMensaje.password">
+              <ng-container *ngIf="password.hasError(error.type) && (password.dirty || password.touched)">
+                <small class="error-message">{{error.message}}</small>
+              </ng-container>                    
+            </div>
+            <ion-item>
+              <ion-select class="custom-options" 
+                          formControlName ="pais"
+                          placeholder='{{ "SELECCIONE_PAIS"| translate}}'>
+                          <ion-select-option *ngFor="let pais of listaPais" value="{{pais.pais}}">{{pais.pais}}</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <div *ngFor="let error of errorMensaje.pais">
+              <ng-container *ngIf="pais.hasError(error.type) && (pais.dirty || pais.touched)">
+                  <small class="error-message">{{error.message}}</small>
+              </ng-container>                    
+            </div>
+            <ion-item>
+              <ion-select class="custom-options" 
+                          formControlName ="frecuencia"
+                          placeholder='{{ "SELECCIONE_FRECUENCIA"| translate}}'>
+                          <ion-select-option *ngFor="let frecuencia of listaFrecuencia" value="{{frecuencia.frecuencia}}">{{frecuencia.frecuencia}}</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <div *ngFor="let error of errorMensaje.frecuencia">
+              <ng-container *ngIf="frecuencia.hasError(error.type) && (frecuencia.dirty || frecuencia.touched)">
+                  <small class="error-message">{{error.message}}</small>
+              </ng-container>                    
+            </div>
+             
+                         
+            <ion-item>
+              <ion-checkbox id ="acepto" slot="start"></ion-checkbox>
+              <a style="text-decoration: none; color: black;" 
+                href="https://www.porkcolombia.co/politica-de-privacidad/" 
+                class="href">
+                <small class="politicas">{{"ACEPTO_POLITICAS" | translate}}
+                </small>
+              </a>
+            </ion-item>      
+            <ion-button expand="block" shape="round" type="submit" color="success">
+              {{ "REGISTRARME" | translate}}
+              <ion-icon slot="end" name="create"></ion-icon>
+            </ion-button>  
+          </form>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+  </div>        
+</ion-content>

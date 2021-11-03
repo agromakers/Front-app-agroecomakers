@@ -1,0 +1,53 @@
+<ion-header no-border class="myphoto">     
+    <ion-toolbar size="12" size-lg="6" size-md="6" >
+      <ion-buttons slot="start" text='null'>
+        <ion-back-button defaultHref="/inicio" color="success" slot="icon-only" text=""></ion-back-button>
+      </ion-buttons>
+      <!-- <ion-img src="../../../assets/icon/logo-agroecomaker-h.png" alt=""></ion-img>  --> 
+      <ion-title slot="end">{{ "INICIO" | translate}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-content>
+    <div class="contenedor">
+        <h2>{{ "BIENVENIDO" | translate}}</h2>
+                <ion-img src="../../../assets/icon/aem-back-white-512.png" ></ion-img>
+        <ion-grid>
+            <ion-row>
+                <ion-col>                            
+                    <form action="">
+                        <ion-label>
+                            <h3>
+                                {{"ESTAMOS_MUY_FELICES" | translate}}
+                            </h3>                            
+                        </ion-label>
+                        <ion-item>
+                            <ion-input  type="text" [(ngModel)]="usuario" name="usuario" placeholder='{{ "USUARIO"| translate}}'></ion-input>
+                        </ion-item>
+                        <ion-item>
+                            <ion-input [type]="passwordType" 
+                                        [(ngModel)]="password" 
+                                        name="password" 
+                                        placeholder='{{ "CONTRASEÑA"| translate}}'>
+                            </ion-input>
+                            <ion-icon slot="end" [color]= "passwordFlag === true ? 'dark' : 'gray'" [name]="passwordFlag === true ? 'eye-off-outline' : 'eye-outline'" (click) = "changeType();"></ion-icon>
+                        </ion-item> 
+                        <ion-label>
+                            <h3>
+                                <a [routerLink]= "['/registro']"> {{"OLVIDO_SU_CONTRASEÑA" | translate}}</a> 
+                            </h3>                        
+                        </ion-label>                  
+                        <ion-button expand="block" shape="round" type="button" color="success" (click)="login()">
+                            {{ "INGRESAR"| translate}}
+                            <ion-icon class="ion-padding" slot="end" name="enter"></ion-icon>
+                        </ion-button>  
+                        <ion-label>
+                            <h3 style="font-weight: lighter;" color="success"> {{"NO_TIENE_CUENTA" | translate}}<a [routerLink]= "['/registro']">{{"REGISTRATE_AQUI" | translate}} </a> </h3>
+                        </ion-label>
+                    </form>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+    
+</ion-content>
+

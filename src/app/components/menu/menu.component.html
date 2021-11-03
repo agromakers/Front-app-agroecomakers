@@ -1,0 +1,42 @@
+<!-- <ion-menu side="start" menuId="first" contentId="main">
+  <ion-header>
+    <ion-toolbar color="light">
+      <ion-title>
+        <ion-img src="../../../assets/icon/logo-agroecomaker-h.png"></ion-img>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list class="ion-padding">
+      <ion-menu-toggle>
+        <ion-item *ngFor="let item of componentes"
+        [routerLink]="item.redirectTo"
+        detail
+        class="alto"
+        lines ="none">
+          <ion-icon [name]="item.icon" slot="start" color="success"></ion-icon>
+          {{item.name}}
+        </ion-item>
+        <ion-col size="12" offset="0">
+          <ion-item>
+            <ion-label>{{"LENGUAJE" | translate}}</ion-label>
+            <ion-select cancelText="Cancel" 
+                        (ionChange) = "cambiaIdioma($event)">
+              <ion-select-option *ngFor="let idioma of listaIdiomas" value="{{idioma}}">{{idioma}}</ion-select-option>
+            </ion-select>
+          </ion-item> 
+        </ion-col>
+        <ion-col size="12" offset="0">
+          <ion-item>
+            <ion-label>{{"PAIS" | translate}}</ion-label>
+            <ion-select cancelText="Cancel" >
+              <ion-select-option *ngFor="let pais of listaPais" value="{{pais}}">{{pais}}</ion-select-option>
+            </ion-select>
+          </ion-item>        
+        </ion-col>
+      </ion-menu-toggle>
+      
+    </ion-list>
+  </ion-content>
+</ion-menu>
+ -->

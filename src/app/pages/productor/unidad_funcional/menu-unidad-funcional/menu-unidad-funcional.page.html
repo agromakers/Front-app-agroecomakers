@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<ion-content>
+  <ion-card>
+    <div class="cabecera">
+      <ion-img class="card-img" src="../../../assets/icon/greenproducer-310.png" alt=""></ion-img>                                        
+    <label class="label"><h6>{{"UNIDAD_PRODUCTIVA" | translate}}</h6><h6>Nueva Finca</h6></label>
+    </div> 
+    <hr>   
+    <ion-list *ngFor="let unidadFuncional of unidadesFuncionales">
+      <ion-item>
+        <ion-icon slot="start" name="wifi"></ion-icon>
+        <ion-label>{{unidadFuncional.unidad_funcional}}</ion-label>
+        <ion-icon slot="end" name="add" (click)="continuar(unidadFuncional.ruta)"></ion-icon>
+      </ion-item>
+    </ion-list>    
+  </ion-card>
+</ion-content>
+<app-fotter></app-fotter>

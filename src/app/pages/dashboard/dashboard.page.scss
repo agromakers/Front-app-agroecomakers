@@ -1,0 +1,21 @@
+.contenedor{    
+    h3{
+        text-align: center;
+        margin: 1px auto 10px;
+    }
+    ion-card{
+        width: auto;
+        height: auto;
+        margin: 10% auto;
+    }    
+    ion-img{
+        width: 25vw;
+        height: auto;
+        margin: 5px auto;
+    }
+    ion-grid{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5%; 
+    }
+}

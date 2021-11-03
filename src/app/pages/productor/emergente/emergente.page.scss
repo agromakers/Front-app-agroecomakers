@@ -1,0 +1,45 @@
+ion-img{
+    width: 60%;
+    margin: 1rem auto 0px;
+}
+
+ion-card-content{
+    width: 90%;
+    margin: 2rem auto;
+    text-align: justify;
+}
+
+ion-icon{
+    position: absolute;
+    left: 235px;
+    top: 5px;
+    float: right;
+    z-index: 20px;
+    font-size: 24px;
+}
+
+ion-card{
+    width: 94%;
+    height: 95%;
+    margin: 0.5rem auto;
+    align-items: center;
+    align-content: center;
+}
+
+ion-card-title{
+    text-align: center;
+    margin: 0rem auto;
+    width: 90%;
+    color: green;
+    font-size: 14pt;
+}
+ion-buttons{
+    width: 100%;
+    margin: 1rem auto 0rem auto;
+}
+
+ion-button{
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

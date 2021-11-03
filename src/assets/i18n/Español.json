@@ -1,0 +1,110 @@
+{
+    "ACEPTO_POLITICAS": "Acepto la política de privacidad y protección de datos.",
+    "ACTIVIDAD_PRODUCTO": "¿Cuál es la actividad o producto que desarrolla?",
+    "AREA":"Área o superficie",
+    "AREA_UFUNCIONAL": "¿Cuál es la superficie en metros cuadrados?",
+    "ARENA_TERRENO": "¿Qué (%) de arena presenta?",
+    "ARCILLA_TERRENO": "¿Qué (%) de arcilla presenta?",
+    "ACCESO_ENTREGA":"¿Cómo se puede acceder al punto de entrega?",
+    "ALMACENA_AGUA":"¿Cómo guarda o almacena el agua?",
+
+    "BIENVENIDO":"Bienvenido a",
+    "BIODIVERSIDAD":"Biodiversidad",
+
+    "CANCELAR": "Cancelar",
+    "CELULAR": "Número teléfonico",
+    "CERRAR_SESION": "Cerrar sesion",
+    "CICLOS": "Ciclos",
+    "CONOCE_MOS": "¿Conoce el porcentaje en materia orgánica del suelo de esta UF?",
+    "CONOCE_PH": "¿Conoce el ph del suelo de ésta parcela?",
+    "CONOCE_PORCENTAJE": "¿Conoce el porcentaje de arcilla, limo y arena en su lote?*",
+    "CONSUMIDOR": "Consumidor",
+    "CONTRASEÑA": "Contraseña",
+    "COMERCIALIZACION": "Comercialización",
+    "COORDENADAS":"Coordenadas",
+    "CONTROL_AGUA": "¿Qué control realiza al agua utilizada en su UP?",
+    "CREAR_CUENTA": "Crear una cuenta",
+    "COORDENADAS_ENTREGA":"¿Podria registrar las coordenadas del punto de entrega?",
+    "CUAL_PH": "¿Cuál es el PH?",
+    "CUANTOS_TRABAJADORES": "¿Cuantos trabajadores hay en su UP, incluido/a usted?",
+    "CUANTOS_JORNALEROS": "Del total de trabajadores ¿Cuántos son jornaleros?",
+    "CUANTOS_DISCAPACIDAD": "¿Cuántos trabajadores en condición de discapacidad hay en su UP?",
+    "CUANTOS_AFRO": "¿Cuántos trabajadores de cultura afrodescendiente hay en su UP?",
+    "CUANTOS_MIGRANTES": "¿Cuántos trabajadores desplazados, migrantes o victimas del conflicto hay en su UP?",
+    "CUANTOS_INDIGENA": "¿Cuántos trabajadores de población inidgena o étnica participan en su UP?",
+    
+    "DISTANCIA_FINCA": "A qué distancia de su finca se percibe buena cobertura de comunicación para llamadas e internet?",
+    "DISPOSICION_RESIDUOS":"¿Cómo dispone de los residuos organicos en su UP?",
+    "DIVERISDAD_INSECTOS":"Por favor cargue una imagen donde se aprecie la diversidad de insectos.*",
+
+    "ESTAMOS_MUY_FELICES": "Estamos muy felices de verlo de nuevo",
+    "EVALUADOR": "Evaluador",
+
+    "FOTO_LOTE": "Por favor cargue una foto de su lote",
+    "FOTO_TERRENO": "Por favor cargue Foto de un hueco en su suelo de una profundidad hasta que se terminen las raíces pequeñas",
+
+    "GUARDAR":"Guardar",
+
+    "INFO_FINCA":"Información de la Unidad Productiva",
+    "IDENTIFICACION": "Identificación",
+    "INGRESAR": "Ingresar",
+    "INICIO": "Inicio",
+    "INSECTOS_COLOR":"¿De los insectos colectados en la trampa amarilla, que porcentaje tenian aspecto de avispa, abeja u hormiga?*",
+
+    "HELP_BIO": "* Ayuda para esta pregunta",
+    "HELP_CASERO": "* Ayuda para metodo casero",
+    "HUMEDAD_SUELO": "¿Cuál es la humedad del suelo en general?",
+
+    "LENGUAJE": "Idioma",
+    "LIMO_TERRENO": "¿Qué (%) de limo presenta?",
+
+    "NOMBRE": "Nombre y apellido",
+    "NOMBRE_FINCA": "Nombre de la Unidad Productiva",
+    "NOMBRE_UFUNCIONAL": "Nombre de la unidad funcional agricola",
+    "NO_TIENE_CUENTA" : "No tiene cuenta?  ",
+    "NUMERO_TRABAJADORES": "Número de trabajadores",
+    "NUMERO_INSECTOS":"¿Cuál fue el peso total de los animales(lombríces, cucarachas, escarabajos...) que salieron de los SI de tierra secandose?*",
+    
+    "METODO_PH": "¿Que método va usar, casera o laboratorio?*",
+
+    "OLVIDO_SU_CONTRASEÑA": "Olvido su contraseña?",
+    "ORIGEN_AGUA":"¿De dónde viene el agua a la finca?",
+
+    "PAIS": "País",
+    "PENDIENTE_TERRENO":"¿Cuál es la pendiente del lote?",
+    "PLANIFICACION": "Planificación",
+    "PRACTICAS_AGRICOLAS":"Practicas agrícolas en este espacio",
+    "PRODUCTOR":"Productor",
+    "PROFUNDIDAD_SUELO": "¿Qué profundidad en cm presenta el suelo?",
+    "PORCENTAJE_MOS": "¿Cuál es el porcentaje de materia orgánica en el suelo (MOS)?",
+    "PUNTO_ENTREGA":"Punto de entrega",
+
+    "QUE_UF_TIENE": "¿Que Unidades Funcionales tiene?",
+    
+    "RECURSO_HIDRICO":"Recurso hídrico y residuos",
+    "REGISTRARME": "Registrame",
+    "REGISTRO": "Registro",
+    "RIEGO_AGUA":"¿Qué sistema de riego utiliza en su UP?",
+    "REGISTRATE_AQUI": "Cree una cuenta",
+
+    "SELECCIONE_IDIOMA": "Seleccione un idioma",
+    "SELECCIONE_FRECUENCIA": "Frecuencia de notificación",
+    "SELECCIONE_PAIS": "Seleccione un pais",
+    "SELECCIONE_DEPTO": "Seleccione un departamento",
+    "SELECCIONE_MUNICIPIO": "Seleccione un municipio",
+    "SELECCIONE_VEREDA": "Seleccione una vereda",
+    "SUBSCRIBIRSE": "Subscribirse",
+
+    "TRANSPORTADOR": "Transportador",
+    "TERRAZAS_AGUA": "¿Se hacen terrazas para evitar erosión?",
+    "TEXTO1": "Registrese ahora y disfrute de una herramienta que le ayudara a ser más eficiente en su dia a dia",
+    "TIPO_UNIDAD": "¿Qué tipo de actividad agrícola es?",
+    "TRABAJADORES": "Trabajadores",
+    "TRAMPA_INSECTOS":"¿Cuantos insectos se ven en la trampa de luz?*",
+
+    "UNIDAD_FUNCIONAL":"Unidad Funcional",
+    "UNIDAD_PRODUCTIVA": "Unidad Productiva",
+    "USUARIO": "Nombre de usuario",
+
+    "VAMOS_A_CREAR": "Vamos a crear su cuenta"
+}

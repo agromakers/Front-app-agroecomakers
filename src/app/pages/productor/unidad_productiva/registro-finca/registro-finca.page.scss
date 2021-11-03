@@ -1,0 +1,111 @@
+@media only screen and (min-width: 350px) {
+    h4{
+        color: #006837;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 16px;
+        font-weight: bold;
+        width: 300px;
+    }
+    h5{
+        margin: 10px auto ;
+        text-align: center;
+        font-size: 16px;
+        width: 300px;
+    }
+    .card-img{
+        width: 20vw;
+        height: auto;
+        display: block;
+        margin: 0px auto;         
+    }  
+    hr{
+        height: 2px;
+        background-color: white;
+    } 
+    .text-center{       
+        margin-left:45%;
+        margin-right: 45%;       
+    }  
+    
+    ion-card{
+        height: 14vh;
+        width: 320px;
+        align-items: center;
+        display: inline-flex;
+        margin-left: 4vw;
+        border-radius: 10px;
+    } 
+
+    .label{
+        width: 200px;
+        margin-bottom: 10px;
+        color: #006837;    
+    }
+
+    .logo-img{
+        width: 45%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ion-title{
+        font-weight: bold;
+        font-size: 3vh;
+        color: #006837;
+    }
+    ion-checkbox{
+        margin-left: 10px;
+    }
+    ion-buttons{
+        margin-left: 10px;
+    }
+    ion-button{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ion-item{
+        width: 90%;
+        font-size: 14px;        
+        height: auto;
+        margin: 1.5vh auto 0;
+        border-radius: 30px;
+    }
+    
+    ion-toggle{
+        height: 20px;
+    }
+
+    .lbldistancia{
+        padding: 0.5rem;
+        font-size: 10pt !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    div{
+        margin: 0.5rem auto 0rem;
+        background-color: white;
+        text-align: center;
+        width: 90%;
+        border-radius: 20px;        
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .logo-img{
+        width: 20vw;
+    }
+    ion-title{       
+        font-size: 2vw;
+    }
+    ion-card{
+        height: 17vw;
+        width: 350px;        
+        margin-left: 22vw;
+    } 
+    ion-button{
+        width: 55vw;
+    }    
+}   

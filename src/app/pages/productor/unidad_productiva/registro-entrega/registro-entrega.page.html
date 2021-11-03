@@ -1,0 +1,52 @@
+<app-header></app-header>
+
+<ion-content>
+  <div style=" margin: 5px 0px;">  
+    <ion-label class="text-center">4/5</ion-label>
+    <ion-progress-bar [value]= "0.8" 
+                      [buffer]= "0.8"
+                      color="light">       
+    </ion-progress-bar>    
+  </div>
+  
+  <div style="display: inline-flex;">                  
+    <ion-img class="card-img" src="../../../assets/icon/greenproducer-310.png" alt="" ></ion-img>                                        
+    <label class="label"><h1>{{"UNIDAD_PRODUCTIVA" | translate}}</h1></label>
+  </div>
+  <hr>        
+  <label><h6 class="label_sub">{{"PUNTO_ENTREGA" | translate}}</h6></label>
+  <ion-card>
+    <ion-card-header>Imagen</ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-grid class="ion-no-padding" mode= "ios">
+      <ion-row class="ion-no-padding">
+        <ion-col class="ion-no-padding">       
+          <form (ngSubmit)="guardar()" >
+            <ion-item class="especial">
+              <ion-select class="custom-options" 
+                        (ionChange)="comparte($event)"
+                        placeholder='{{ "COORDENADAS_ENTREGA"| translate}}'>
+                        <ion-select-option  value="Si">Sí</ion-select-option>
+                        <ion-select-option  value="No">No</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item class="especial">
+              <ion-select class="custom-options" 
+                        (ionChange)="acceso($event)"
+                        placeholder='{{ "ACCESO_ENTREGA"| translate}}'>
+                        <ion-select-option *ngFor="let acceso of acceso_entrega" value="{{acceso.acceso_Entrega}}">{{acceso.acceso_Entrega}}</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-button expand="block" shape="round" type="submit" color="success">
+              {{"GUARDAR" | translate}}
+            </ion-button>  
+          </form>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+   
+</ion-content>
+
+<app-fotter></app-fotter>

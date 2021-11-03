@@ -1,0 +1,110 @@
+{
+    "ACEPTO_POLITICAS": "I accept the privacy and data protection policy.",
+    "ACTIVIDAD_PRODUCTO": "¿What is the activity or product that you develop?",
+    "ALMACENA_AGUA":"¿How do you store or store water?", 
+    "AREA_UFUNCIONAL": "¿What is the area in square meters?",
+    "ARENA_TERRENO": "¿What (%) of sand does it present?",
+    "ARCILLA_TERRENO": "¿What (%) of clay does it present?",
+    "ACCESO_ENTREGA":"¿How can you access the delivery point?",   
+    "AREA":"Area or surface",
+    
+    "BIENVENIDO":"Welcome to",
+    "BIODIVERSIDAD":"Biodiversity",
+
+    "CANCELAR": "Cancel",
+    "CELULAR": "Mobile",
+    "CERRAR_SESION": "Log out",
+    "CICLOS": "Cycles",
+    "CONOCE_MOS": "¿Do you know the percentage of organic matter in the soil of this FU?",
+    "CONOCE_PH": "¿Do you know the pH of the soil in this plot?",
+    "CONOCE_PORCENTAJE": "¿Do you know the percentage of clay, silt and sand in your lot?*",
+    "CONSUMIDOR": "Consumer",
+    "COORDENADAS":"coordinates",
+    "COMERCIALIZACION": "Commercialization",
+    "COORDENADAS_ENTREGA":"¿Could you record the coordinates of the delivery point?",
+    "CREAR_CUENTA": "Create an account",
+    "CUAL_PH": "¿What is the PH?",
+    "CUANTOS_TRABAJADORES": "¿How many workers are in your UP, including you?",
+    "CUANTOS_JORNALEROS": "Of the total number of workers, ¿how many are day laborers?",
+    "CUANTOS_DISCAPACIDAD": "¿How many workers with disabilities are there in your UP?",
+    "CUANTOS_AFRO": "¿How many workers of Afro-descendant culture are there in your UP?",
+    "CUANTOS_MIGRANTES": "¿How many displaced workers, migrants or victims of the conflict are there in your UP?",
+    "CUANTOS_INDIGENA": "¿How many indigenous or ethnic population workers participate in your UP?",
+    "CONTRASEÑA": "Password",
+    "CONTROL_AGUA": "¿What control do you carry out on the water used in your UP?",
+
+    "DISTANCIA_FINCA": "At what distance from your farm do you perceive good communication coverage for calls and internet?",
+    "DISPOSICION_RESIDUOS":"¿How do you dispose of organic waste in your UP?",
+    "DIVERISDAD_INSECTOS":"Please upload an image showing the diversity of insects.*",
+
+    "ESTAMOS_MUY_FELICES": "We are very happy to see you again.",
+    "EVALUADOR": "Evaluator",
+
+    "FOTO_LOTE": "Please upload a photo of your batch",
+    "FOTO_TERRENO": "Please upload a photo of a hole in your soil from a depth until the small roots are finished",
+
+    "GUARDAR":"Save",
+
+    "IDENTIFICACION": "ID",
+    "INGRESAR": "LOGIN",
+    "INFO_FINCA":"Productive Unit Information",
+    "INICIO": "Beginning",
+    "INSECTOS_COLOR":"Of the insects collected in the yellow trap, what percentage looked like a wasp, bee, or ant?*",
+
+    "HELP_BIO": "* Help for this question",
+    "HELP_CASERO": "* Help for home method",
+    "HUMEDAD_SUELO": "¿What is the general soil moisture?",
+
+    "LENGUAJE": "Language",
+    "LIMO_TERRENO": "¿What (%) of silt does it present?",
+
+    "NOMBRE": "Name and surname",
+    "NOMBRE_FINCA": "Productive unit name",
+    "NOMBRE_UFUNCIONAL": "Name of the agricultural functional unit",
+    "NO_TIENE_CUENTA" : "Don't have an account?",
+    "NUMERO_TRABAJADORES": "Number of workers",
+    "NUMERO_INSECTOS":"¿What was the total weight of the animals (earthworms, cockroaches, beetles ...) that came out of the earth SIs drying up?*",
+    
+    "METODO_PH": "¿What method will you use, home or laboratory?*",
+
+    "ORIGEN_AGUA":"¿Where does the water come from to the farm?",
+    "OLVIDO_SU_CONTRASEÑA": "Forgot your password?",
+
+    "PAIS": "Country",
+    "PENDIENTE_TERRENO":"¿What is the slope of the lot?",
+    "PLANIFICACION": "Planning",
+    "PRACTICAS_AGRICOLAS":"Agricultural practices in this space",
+    "PRODUCTOR":"Producer",
+    "PROFUNDIDAD_SUELO": "¿How deep in cm is the soil?",
+    "PORCENTAJE_MOS": "¿What is the percentage of organic matter in the soil (SOM)?",
+    "PUNTO_ENTREGA":"Delivery point",
+
+    "QUE_UF_TIENE": "What Functional Units do you have?",
+
+    "RECURSO_HIDRICO":"Water resources and waste",
+    "REGISTRATE_AQUI": "Create an account here",
+    "RIEGO_AGUA":"¿What irrigation system do you use in your UP?",
+    "REGISTRO": "Register",
+    "REGISTRARME": "SIGN IN",
+
+    "SELECCIONE_IDIOMA": "Select a language",
+    "SELECCIONE_FRECUENCIA": "Notification frequency",
+    "SELECCIONE_PAIS": "Select a country",
+    "SELECCIONE_DEPTO": "Select a department",
+    "SELECCIONE_MUNICIPIO": "Select a municipality",
+    "SELECCIONE_VEREDA": "Select a village",
+    "SUBSCRIBIRSE": "Subscribe",
+
+    "TEXTO1": "Register now and enjoy a tool that will help you be more efficient in your day to day",
+    "TIPO_UNIDAD": "¿What type of agricultural activity is it?",
+    "TRABAJADORES": "Workers",
+    "TRANSPORTADOR": "Transporter",
+    "TERRAZAS_AGUA": "¿Are terraces made to avoid erosion?",
+    "TRAMPA_INSECTOS":"¿How many insects do you see in the light trap?*",
+
+    "UNIDAD_FUNCIONAL":"Functional Unit",
+    "USUARIO": "Username",
+    "UNIDAD_PRODUCTIVA": "Productive Unit",
+            
+    "VAMOS_A_CREAR": "Let's create your account"
+}

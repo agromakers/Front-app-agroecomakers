@@ -1,0 +1,26 @@
+@media only screen and (min-width: 280px) {
+    .settings{ 
+        width: 20%;       
+        margin: 0vh auto 3vh;
+        display: inline-block; 
+        ion-img {
+            height: auto;
+            width: 10vw;
+            margin: 1vh auto;
+            padding: 0%;
+        }
+    } 
+}
+@media only screen and (min-width: 630px) {
+    .settings{ 
+        width: 20%;       
+        margin: 0vh auto 3vh;
+        display: inline-block; 
+        ion-img {
+            height: auto;
+            width: 5vw;
+            margin: 1vh auto;
+            padding: 0%;
+        }
+    } 
+}

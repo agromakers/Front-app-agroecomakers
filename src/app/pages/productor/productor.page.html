@@ -1,0 +1,161 @@
+<app-header></app-header>
+<ion-content> 
+      <ion-grid>          
+          <ion-card >                  
+              <ion-img class="card-img" src="../../../assets/icon/greenproducer-310.png" alt="" [routerLink]="['/productor/registro-finca']" routerLinkActive="router-link-active"></ion-img>                                        
+              <label class="label" [routerLink]="['/productor/registro-finca']" routerLinkActive="router-link-active">
+                <h6>{{"UNIDAD_PRODUCTIVA" | translate}}</h6>
+              </label>
+              <label>
+                <ion-icon name="help-circle-outline" slot="end" color="success"></ion-icon>
+              </label>
+          </ion-card>
+          <hr>            
+          <ion-card>                  
+              <ion-img class="card-img" src="../../../assets/icon/greentransporter-310.png" alt="" [routerLink]="['/productor/unidad_funcional/menu-unidad-funcional']" routerLinkActive="router-link-active"></ion-img>
+              <label class="label" [routerLink]="['/productor/menu-unidad-funcional']" routerLinkActive="router-link-active"><h6>{{"UNIDAD_FUNCIONAL" | translate}}</h6></label>
+              <label>
+                <ion-icon name="help-circle-outline" slot="end" color="success"></ion-icon>
+              </label>
+          </ion-card>
+          <hr>                
+          <ion-card>                  
+              <ion-img class="card-img" src="../../../assets/icon/greencustomer-310.png" alt=""></ion-img>
+              <label class="label"><h6>{{"CICLOS" | translate}}</h6></label>
+              <label>
+                <ion-icon name="help-circle-outline" slot="end" color="success"></ion-icon>
+              </label>
+          </ion-card>
+          <hr>
+          <ion-card>                  
+            <ion-img class="card-img" src="../../../assets/icon/greencustomer-310.png" alt=""></ion-img>
+            <label class="label"><h6>{{"COMERCIALIZACION" | translate}}</h6></label>
+            <label>
+              <ion-icon name="help-circle-outline" slot="end" color="success"></ion-icon>
+            </label>
+          </ion-card>
+          <hr>
+      </ion-grid>      
+  <app-fotter></app-fotter>
+</ion-content>
+
+
+
+
+<!-- <app-header></app-header> -->
+
+<!-- <ion-content> 
+  <h3>Información de la finca</h3>
+  <ion-grid class="ion-no-padding" mode= "ios">
+    <ion-row class="ion-no-padding">
+      <ion-col class="ion-no-padding">       
+        
+        <form [formGroup]="formRegistro" (ngSubmit)="guardar()" >
+          <ion-item>
+            <ion-input inputmode="text"
+                      autocapitalize
+                      formControlName="nombreFinca"
+                      (ionChange)="registrarUP();"
+                      class="ion-no-padding"
+                      placeholder='{{ "NOMBRE_FINCA"| translate}}'
+                      >
+            </ion-input>
+          </ion-item>
+                                      
+          <div *ngFor="let error of errorMensaje.nombreFinca">
+            <ng-container *ngIf="nombreFinca.hasError(error.type) && (nombreFinca.dirty || nombreFinca.touched)">
+              <small class="error-message">{{error.message}}</small>
+            </ng-container>                    
+          </div>
+          <ion-item>
+            <ion-select class="custom-options" 
+                        formControlName ="pais"
+                        (ionChange)="registrarUP();"
+                        placeholder='{{ "SELECCIONE_PAIS"| translate}}'>
+                        <ion-select-option *ngFor="let pais of listaPais" value="{{pais}}">{{pais}}</ion-select-option>
+            </ion-select>
+          </ion-item>
+          <div *ngFor="let error of errorMensaje.pais">
+            <ng-container *ngIf="pais.hasError(error.type) && (pais.dirty || pais.touched)">
+                <small class="error-message">{{error.message}}</small>
+            </ng-container>                    
+          </div>
+          <ion-item>
+            <ion-select class="custom-options" 
+                        (ionChange)= "captura();"
+                        formControlName = departamento
+                        placeholder='{{ "SELECCIONE_DEPTO"| translate}}'>
+                        <ion-select-option *ngFor="let departamento of departamentos" value="{{departamento.nombre_Depto}}">{{departamento.nombre_Depto}}</ion-select-option>
+            </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-select class="custom-options" 
+                        (ionChange)= "capturaM();"
+                        formControlName = municipio
+                        placeholder='{{ "SELECCIONE_MUNICIPIO"| translate}}'>
+                        <ion-select-option *ngFor="let municipio of municipios" value="{{municipio.municipio}}">{{municipio.municipio}}</ion-select-option>
+            </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-select class="custom-options" 
+                        (ionChange)= "capturaV();"
+                        formControlName = vereda
+                        placeholder='{{ "SELECCIONE_VEREDA"| translate}}'>
+                        <ion-select-option *ngFor="let vereda of veredas" value="{{vereda.vereda}}">{{vereda.vereda}}</ion-select-option>
+            </ion-select>
+        </ion-item> 
+          <ion-item>
+            <ion-input type="text" 
+                      formControlName ="coordenadas"
+                      placeholder='{{ "COORDENADAS"| translate}}'
+                      >
+            </ion-input>
+          </ion-item>         
+          <div *ngFor="let error of errorMensaje.coordenadas">
+            <ng-container *ngIf="coordenadas.hasError(error.type) && (coordenadas.dirty || coordenadas.touched)">
+              <small class="error-message">{{error.message}}</small>
+            </ng-container>                    
+          </div>
+          <ion-item>
+            <ion-input inputmode="number" 
+                      formControlName ="area"
+                      placeholder='{{ "AREA"| translate}}'
+                      >
+            </ion-input>
+          </ion-item>
+          <div *ngFor="let error of errorMensaje.area">
+            <ng-container *ngIf="area.hasError(error.type) && (area.dirty || area.touched)">
+              <small class="error-message">{{error.message}}</small>
+            </ng-container>                    
+          </div> 
+          <ion-item>
+            <ion-input type="number" 
+                      formControlName ="numeroTrabajadores"
+                      placeholder='{{ "NUMERO_TRABAJADORES"| translate}}'
+                      >
+            </ion-input>
+          </ion-item>       
+          <div *ngFor="let error of errorMensaje.numeroTrabajadores">
+            <ng-container *ngIf="numeroTrabajadores.hasError(error.type) && (numeroTrabajadores.dirty || numeroTrabajadores.touched)">
+              <small class="error-message">{{error.message}}</small>
+            </ng-container>                    
+          </div>
+          <div class="container">
+            <div class="center">
+              <ion-row>
+                <ion-col>
+                  
+                    <ion-button (onClick)="registrarUP();" class="button_page1" color="success">
+                    Siguiente
+                  </ion-button>
+                </ion-col>
+              </ion-row>
+            </div>
+          </div>      
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+  <app-fotter></app-fotter>
+</ion-content> -->
+ 

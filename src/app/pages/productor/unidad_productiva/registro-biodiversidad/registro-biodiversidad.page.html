@@ -1,0 +1,78 @@
+<app-header></app-header>
+<ion-content> 
+  <div style=" margin-top: 5px;">  
+    <ion-label class="text-center">5/5</ion-label>
+    <ion-progress-bar [value]= "1" 
+                      [buffer]= "1"
+                      color="light">       
+    </ion-progress-bar>    
+  </div>
+  
+  <div style="display: inline-flex;">                  
+    <ion-img class="card-img" src="../../../assets/icon/greenproducer-310.png" alt="" ></ion-img>                                        
+    <label class="label"><h1>{{"UNIDAD_PRODUCTIVA" | translate}}</h1></label>
+  </div>
+
+  <label><h6 class="label_sub">{{"BIODIVERSIDAD" | translate}}</h6></label>
+  <ion-card>
+    <ion-card-header>Imagen</ion-card-header>
+  </ion-card>
+  <hr>        
+  <ion-card>
+    <ion-grid class="ion-no-padding" mode= "ios">
+      <ion-row class="ion-no-padding">
+        <ion-col class="ion-no-padding">       
+          <form [formGroup]="formBiodivesidad" (ngSubmit)="guardar()">
+            <div>
+              <ion-label>{{"DIVERISDAD_INSECTOS" | translate}}</ion-label>
+              <p (click)="mostrarModalEmergente()">{{"HELP_BIO" | translate}}</p>
+              <ion-input class="input"
+                          type="file"
+                          formControlName="diversidad_insectos">
+              </ion-input>
+              <!-- <ion-icon slot="end" name="camera" (click)="camara()"></ion-icon> -->
+            </div>
+            <div>
+              <ion-label>{{"INSECTOS_COLOR" | translate}}</ion-label>
+              <p (click)="mostrarModalEmergente1()">{{"HELP_BIO" | translate}}</p>
+              <ion-input class="input"
+                          type="file"
+                          formControlName="color_insectos">
+              </ion-input>
+            </div> 
+            <div>
+              <ion-label position="floating">{{"NUMERO_INSECTOS" | translate}}</ion-label>
+              <p (click)="mostrarModalEmergente2()">{{"HELP_BIO" | translate}}</p>
+              <ion-input class="input"
+                          type="file"
+                          formControlName="peso_insectos">
+              </ion-input>
+            </div>
+            <div>
+              <ion-label>{{"TRAMPA_INSECTOS" | translate}}</ion-label>
+              <p (click)="mostrarModalEmergente3()">{{"HELP_BIO" | translate}}</p>
+              <ion-input class="input"
+                          type="file"
+                          formControlName="trampa_insectos">
+              </ion-input>
+            </div>                  
+            <ion-button expand="block" shape="round" color="success" type="submit" >
+              {{"GUARDAR" | translate}}
+            </ion-button>   
+          </form>
+          <!-- <ion-grid>
+            <ion-row>
+              <ion-col              
+                size="4"
+                *ngFor="let photo of photoService.photos; index as position"
+              >
+                <ion-img [src]="photo.webviewPath"></ion-img>               
+              </ion-col>
+            </ion-row>
+          </ion-grid> -->
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card> 
+</ion-content>
+<app-fotter></app-fotter>

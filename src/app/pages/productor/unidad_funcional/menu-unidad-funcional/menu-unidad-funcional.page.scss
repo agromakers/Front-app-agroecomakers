@@ -1,0 +1,27 @@
+.cabecera{
+    height: 14vh;
+        width: 320px;
+        align-items: center;
+        display: inline-flex;
+        margin-left: 4vw;
+        border-radius: 10px;
+        border: none;
+}
+
+.card-img{
+    width: 20vw;
+    height: auto;
+    display: block;
+    margin: 0px auto;         
+} 
+
+.label{
+    width: 200px;
+    margin-bottom: 10px;
+    color: #006837;    
+}
+
+hr{
+    height: 2px;
+    background-color:#006837;
+} 

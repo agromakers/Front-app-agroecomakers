@@ -1,0 +1,86 @@
+<app-header></app-header>
+<ion-content> 
+  <div style=" margin: 5px 0px;">  
+    <ion-label class="text-center">2/5</ion-label>
+    <ion-progress-bar [value]= "0.4" 
+                      [buffer]= "0.4"
+                      color="light">       
+    </ion-progress-bar>    
+  </div>
+  
+  <div style="display: inline-flex;">                  
+    <ion-img class="card-img" src="../../../assets/icon/greenproducer-310.png" alt="" ></ion-img>                                        
+    <label class="label"><h1>{{"UNIDAD_PRODUCTIVA" | translate}}</h1></label>
+  </div>
+  <hr>        
+  <label><h6 class="label_sub">{{"TRABAJADORES" | translate}}</h6></label>
+  <ion-card>
+    <ion-card-header>Imagen</ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-grid class="ion-no-padding">
+      <ion-row class="ion-no-padding">
+        <ion-col class="ion-no-padding">       
+         <!--  <form [formGroup]="formRegistro" (ngSubmit)="guardar()" > -->
+            <ion-item>
+              <p>{{ "CUANTOS_TRABAJADORES"| translate}}</p> 
+              <label button (click)="minusTrabajador()" class="minus"><ion-icon name="remove-circle-outline"></ion-icon></label>
+              <ion-input type="number" 
+                          [(ngModel)]= 'numero_trabajadores' >
+              </ion-input>
+              <label button (click)="addTrabajador()" class="add"><ion-icon name="add-circle-outline"></ion-icon></label>          
+            </ion-item>
+            <ion-item>
+              <p>{{ "CUANTOS_JORNALEROS"| translate}}</p> 
+              <label (click)="minusJornalero()" class="minus"><ion-icon name="remove-circle-outline"></ion-icon></label>
+              <ion-input type="number" 
+                          min=0
+                          [(ngModel)]="numero_jornaleros" >
+              </ion-input>
+              <label (click)="addJornalero()" class="add"><ion-icon name="add-circle-outline"></ion-icon></label>          
+            </ion-item>
+            <ion-item>
+              <p>{{ "CUANTOS_DISCAPACIDAD"| translate}}</p> 
+              <label (click)="minusDiscapacidad()" class="minus"><ion-icon name="remove-circle-outline"></ion-icon></label>
+              <ion-input type="number" 
+                          min=0 
+                          [(ngModel)]="numero_discapacidad">
+              </ion-input>
+              <label (click)="addDiscapacidad()" class="add"><ion-icon name="add-circle-outline"></ion-icon></label>          
+            </ion-item>
+            <ion-item>
+              <p>{{ "CUANTOS_AFRO"| translate}}</p> 
+              <label (click)="minusAfro()" class="minus"><ion-icon name="remove-circle-outline"></ion-icon></label>
+              <ion-input type="number" 
+                          min=0 
+                          [(ngModel)]="numero_afro">
+              </ion-input>
+              <label (click)="addAfro()" class="add"><ion-icon name="add-circle-outline"></ion-icon></label>          
+            </ion-item>
+            <ion-item>
+              <p>{{ "CUANTOS_MIGRANTES"| translate}}</p> 
+              <label (click)="minusMigrante()" class="minus"><ion-icon name="remove-circle-outline"></ion-icon></label>
+              <ion-input type="number" 
+                          min=0 
+                          [(ngModel)]="numero_migrantes">
+              </ion-input>
+              <label (click)="addMigrante()" class="add"><ion-icon name="add-circle-outline"></ion-icon></label>          
+            </ion-item>
+            <ion-item>
+              <p>{{ "CUANTOS_INDIGENA"| translate}}</p> 
+              <label (click)="minusIndigena()" class="minus"><ion-icon name="remove-circle-outline"></ion-icon></label>
+              <ion-input type="number" 
+                          [(ngModel)]="numero_indigenas">
+              </ion-input>
+              <label (click)="addIndigena()" class="add"><ion-icon name="add-circle-outline"></ion-icon></label>          
+            </ion-item>              
+         <!--  </form> -->
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card> 
+  <ion-button (click)="guardar();" expand="block" shape="round" type="submit" color="success">
+    {{"GUARDAR" | translate}}
+  </ion-button>  
+</ion-content>
+<app-fotter></app-fotter>

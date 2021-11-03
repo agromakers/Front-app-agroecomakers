@@ -1,0 +1,43 @@
+<ion-header no-border class="myphoto">     
+    <ion-toolbar size="12" size-lg="6" size-md="6" >
+        <ion-buttons>
+            <ion-icon name="menu" slot="start" color="success" [routerLink]="['/menu']" routerLinkActive="router-link-active" >
+            </ion-icon>
+        </ion-buttons>
+        <ion-icon name="help-circle-outline" size="large" slot="end" color="success"></ion-icon>
+    </ion-toolbar>
+</ion-header>
+<ion-content  id="main">
+    <div class="contenedor" >        
+        <ion-grid>
+            <ion-img class="logo-img" src="../../../assets/icon/aem-back-white-512.png" ></ion-img>
+            <h4>Hemos notado que aun no se ha completado todo el registro</h4>
+            <h5>Elija su perfil o perfiles de acuerdo a su actividad</h5>            
+            <ion-card>
+                <ion-checkbox id="productor"></ion-checkbox>                  
+                <ion-img class="card-img" src="../../../assets/icon/greenproducer-310.png" alt=""></ion-img>                                        
+                <label class="label"><h6>{{"PRODUCTOR" | translate}}</h6></label>
+            </ion-card>            
+            <ion-card>
+                <ion-checkbox id="transportador"></ion-checkbox>                  
+                <ion-img class="card-img" src="../../../assets/icon/greentransporter-310.png" alt=""></ion-img>
+                <label class="label"><h6>{{"TRANSPORTADOR" | translate}}</h6></label>
+            </ion-card>                
+            <ion-card>
+                <ion-checkbox id="consumidor"></ion-checkbox>                  
+                <ion-img class="card-img" src="../../../assets/icon/greencustomer-310.png" alt=""></ion-img>
+                <label class="label"><h6>{{"CONSUMIDOR" | translate}}</h6></label>
+            </ion-card>
+           <!--  <ion-card (click)="mostrarEvaluacion();" >
+                <ion-checkbox></ion-checkbox>                  
+                <ion-img class="card-img" src="../../../assets/icon/greenevaluator-310.png" alt=""></ion-img>
+                <label class="label"><h6>{{"EVALUADOR" | translate}}</h6></label>
+            </ion-card> --> 
+            <ion-button expand="block" shape="round" type="button" color="success" (click)="crearRelaciones();" >
+                Iniciar
+            </ion-button>   
+        </ion-grid>
+    </div> 
+</ion-content>
+
+

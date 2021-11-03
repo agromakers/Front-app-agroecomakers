@@ -1,0 +1,39 @@
+<ion-app>
+  <!-- <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header no-border>
+      <ion-toolbar color="light">
+        <ion-title>
+          <ion-img src="../../../assets/icon/logo-agroecomaker-h.png"></ion-img>
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-list class="ion-padding">
+        <ion-menu-toggle>
+          <ion-item no-border>
+            <h1>{{usuario?.nombre}}</h1>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">{{ "EMAIL"| translate}}</ion-label>
+            <h6>{{usuario?.email}}</h6>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">{{ "CELULAR"| translate}}</ion-label>
+            <h6>{{usuario?.telefono}}</h6>
+          </ion-item>
+          <ion-label>
+            <h1>{{"SELECCIONE_IDIOMA" | translate}}</h1>
+          </ion-label>
+          <app-idioma></app-idioma>
+          <ion-button (click)="salir()" color="success" expand="block" shape="round">
+            {{"CERRAR_SESION" | translate}}
+            <ion-icon slot="end" name="exit"></ion-icon>                
+          </ion-button>      
+        </ion-menu-toggle>        
+      </ion-list>
+    </ion-content>
+  </ion-menu> -->
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>
+

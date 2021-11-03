@@ -1,0 +1,25 @@
+<!-- <app-header></app-header>
+ -->
+ <ion-content class="myphoto">
+  <div class="contenedor">
+    <app-logo-body></app-logo-body>
+    <ion-label>
+      <h3>{{"SELECCIONE_IDIOMA" | translate}}</h3>
+    </ion-label>
+    <app-idioma></app-idioma>
+    <ion-label>
+      <h3 class="text1">{{"TEXTO1" | translate}}</h3>
+    </ion-label>
+    <ion-button expand="block" shape="round" type="button" color="success" [routerLink]="['/registro']">
+      {{ "CREAR_CUENTA"| translate}}
+      <ion-icon class="ion-padding" slot="end" name="person-add"></ion-icon>
+    </ion-button>
+    <ion-button expand="block" shape="round" type="button" color="dark" [routerLink]="['/login']">
+      {{ "INGRESAR"| translate}}
+      <ion-icon class="ion-padding" slot="end" name="enter"></ion-icon>
+    </ion-button>
+  </div>   
+</ion-content>
+
+
+

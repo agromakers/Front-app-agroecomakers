@@ -1,0 +1,15 @@
+
+<ion-content>
+  <ion-card>
+    <label (click)="closeModal()">
+      <ion-icon slot="end" name="close-circle-outline" color="success" ></ion-icon>
+    </label>    
+    <ion-img src= '{{imagen}}'></ion-img>
+    <ion-card-title>
+      {{titulo}}
+    </ion-card-title>
+    <ion-card-content class="ion-no-padding">
+      {{mensaje}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

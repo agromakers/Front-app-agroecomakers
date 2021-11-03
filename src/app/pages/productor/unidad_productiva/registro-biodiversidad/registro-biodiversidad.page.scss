@@ -1,0 +1,101 @@
+@media only screen and (min-width: 350px) {
+    h4{
+        color: #006837;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 16px;
+        font-weight: bold;
+        width: 300px;
+    }
+    h5{
+        margin: 10px auto ;
+        text-align: center;
+        font-size: 16px;
+        width: 300px;
+    }
+    .card-img{
+        width: 25vw;
+        height: auto;
+        display: inline-flex;
+        margin: 0px 1vw 0px 4vw;
+        background-color: white; 
+        border-radius: 10px;        
+    }   
+    hr{
+        height: 2px;
+        background-color: white;
+    } 
+    .text-center{       
+        margin-left:45%;
+        margin-right: 45%;       
+    } 
+    
+    ion-card{
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    .label{
+        width: 240px;
+        height: 60px;
+        text-align: center;
+        color: white;  
+    }
+
+    .label_sub{
+        width: 240px;
+        color: white; 
+        margin: 0px 0px 0px 4vw; 
+    }
+
+    .logo-img{
+        width: 45%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ion-title{
+        font-weight: bold;
+        font-size: 3vh;
+        color: #006837;
+    }
+    
+    ion-buttons{
+        margin-left: 10px;
+    }
+    ion-button{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div{
+        margin: 0.3rem auto;
+        padding: 0px;
+    }
+
+    p{
+        text-decoration: underline;
+        color: #006837;
+        margin: 3px auto !important;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .logo-img{
+        width: 20vw;
+    }
+    ion-title{       
+        font-size: 2vw;
+    }
+    ion-card{
+        height: 17vw;
+        width: 350px;        
+        margin-left: 22vw;
+    } 
+    ion-button{
+        width: 55vw;
+    }    
+}   
